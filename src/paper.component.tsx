@@ -14,6 +14,7 @@ export const BASE_STYLES = {
 export interface PaperProps {
     color: Color;
     className?: string;
+    style?: object;
 }
 
 export function Paper(props: React.PropsWithChildren<PaperProps>) {

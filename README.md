@@ -9,13 +9,13 @@ Generates inline SVG for an icon based on Ethereum address. It avoids calling `d
 ## Installation
 
 ```
-yarn add @mkMoSs/jazzicon-react
+yarn add @mkmoss/jazzicon-react
 ```
 
 ## Usage
 
 ```typescript jsx
-import { Jazzicon } from '@mkMoSs/jazzicon-react';
+import { Jazzicon } from '@mkmoss/jazzicon-react';
 
 export default function() {
   return (
@@ -31,7 +31,7 @@ Remember to wrap `Jazzicon` component into something with desired width and heig
 Alternatively, you could modify appearance via [styled-components](https://styled-components.com) or [emotion](https://emotion.sh):
 
 ```typescript jsx
-import { Jazzicon } from '@mkMoSs/jazzicon-react';
+import { Jazzicon } from '@mkmoss/jazzicon-react';
 import styled from '@emotion/styled';
 const ModifiedJazzicon = styled(Jazzicon)({
   width: 100,
