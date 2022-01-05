@@ -37,7 +37,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@ukstv/jazzicon-react",
+  "name": "@mkMoSs/jazzicon-react",
   "author": "Sergey Ukustov <sergey@ukstv.me>",
   "module": "dist/jazzicon-react.esm.js",
   "description": "Dan Finlay's Jazzicon in pure React",
